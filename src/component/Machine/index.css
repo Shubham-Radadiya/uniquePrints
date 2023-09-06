@@ -1,0 +1,33 @@
+.machine_flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 ;
+}
+.machine_img{
+    width: 45%;
+    margin: 25px 0 0 0;
+}
+.machine_contain{
+    width: 30%;
+}
+.machine_small_heading{
+    margin: 0px 0 10px 0;
+    font-family: cursive;
+    color:rgb(255, 85, 60) ;
+}
+.machine_heading{
+    margin: 0 ;
+    font-size: 35px;
+}
+.machine_text{
+    margin: 20px 0 0 0 ;
+    color: rgba(0, 0, 0, 0.542);
+    font-size: 19px;
+}
+.machine_contain{
+    width: 33%;
+    margin: 0 100px 0 0;
+
+}
+
+
