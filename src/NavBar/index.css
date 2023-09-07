@@ -1,0 +1,26 @@
+.NavBar label{
+    color: aliceblue;
+    height: 100px;
+    border: transparent; 
+    padding: 0px 45px;
+    
+}
+.NavBar label:hover{
+    background-color: rgb(255, 67, 40);
+    color: aliceblue;
+}
+.NavBar{
+    display: flex;
+    background-color: rgb(3, 14, 39);
+    color: aliceblue;
+    width: 100%;
+    font-size: 18px;
+    align-items: center;
+}
+.logo_name{
+    margin-left: 100px;
+    font-size: 30px;
+    margin-right: 455px;
+}
+
+
