@@ -5,7 +5,7 @@
     padding: 0px 45px;
     
 }
-.NavBar label:hover{
+.NavBar Link:hover{
     background-color: rgb(255, 67, 40);
     color: aliceblue;
 }
