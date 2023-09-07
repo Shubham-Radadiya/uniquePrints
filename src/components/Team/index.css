@@ -1,0 +1,38 @@
+.card{
+    background-color: rgb(241, 248, 253);
+    width: 83%;
+    height: 100px;
+    margin: -5px 0 0 0px ;
+    padding: 30px 0 0 40px;
+}
+.card_heading{
+    margin: 0;
+}
+.card_small_heading{
+    margin: 0;
+    font-size: 18px;
+    /* color:rgba(0, 0, 0, 0.662); */
+}
+.team_heading{
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+}
+.small_team_heading{
+    text-align: center;
+   margin: 90px 0 0 0;
+    color: rgb(255, 74, 48);
+}
+.img_team{
+    margin: 30px 0 0 0px;
+    height: 400px;
+    width: 95%;
+}
+.card:hover{
+    background-color: rgb(255, 74, 48);
+    color: white;
+}
+.card_flex{
+    display: flex;
+    justify-content: center;
+}
