@@ -1,0 +1,21 @@
+.small_heading_product{
+    font-family: cursive;
+    margin: 20px auto 0 auto;
+    font-size: 25px;
+}
+.product_contain{
+width: 44%;
+margin: 0 auto;
+padding: 100px 0px 0 0px;
+float: right;
+}
+.heading_product{
+margin: 10px auto 0 auto;
+font-size: 37px;
+color:white;
+}
+.text_product{
+margin: 10px auto;
+font-size: 22px;
+color: white;
+}
