@@ -13,32 +13,57 @@ export default function Team() {
           <div>
             <img className="img_team" src="/image/team-1.png" alt="" />
             <div className="card">
-              <h1 className="card_heading">Jone Due</h1>
-              <p className="card_small_heading">Printing Lead</p>
+              <div className="logo_flex">
+                <h1 className="card_heading">Jone Due</h1>
+                <img src="/image/014-instagram.png" alt="" style={{ margin: ' 15px 0 0 80px', height: '5%' }} />
+              </div>
+
+              <div >
+                <p className="card_small_heading">Printing Lead  <img src="/image/013-facebook.png" alt="" className="facebook" /></p>
+              </div>
+
             </div>
           </div>
 
           <div>
             <img className="img_team" src="/image/team-2.png" alt="" />
             <div className="card">
-              <h1 className="card_heading">Jone Due</h1>
-              <p className="card_small_heading">Printing Lead</p>
+            <div className="logo_flex">
+                <h1 className="card_heading">Jone Due</h1>
+                <img src="/image/014-instagram.png" alt="" style={{ margin: ' 15px 0 0 80px', height: '5%' }} />
+              </div>
+
+              <div >
+                <p className="card_small_heading">Printing Lead  <img src="/image/013-facebook.png" alt="" className="facebook" /></p>
+              </div>
             </div>
           </div>
 
           <div>
             <img className="img_team" src="/image/team-3.png" alt="" />
             <div className="card">
-              <h1 className="card_heading">Jone Due</h1>
-              <p className="card_small_heading">Printing Lead</p>
+            <div className="logo_flex">
+                <h1 className="card_heading">Jone Due</h1>
+                <img src="/image/014-instagram.png" alt="" style={{ margin: ' 15px 0 0 80px', height: '5%' }} />
+              </div>
+
+              <div >
+                <p className="card_small_heading">Printing Lead  <img src="/image/013-facebook.png" alt="" className="facebook" /></p>
+              </div>
             </div>
           </div>
 
           <div>
             <img className="img_team" src="/image/team-05.png" alt="" />
             <div className="card">
-              <h1 className="card_heading">Jone Due</h1>
-              <p className="card_small_heading">Printing Lead</p>
+            <div className="logo_flex">
+                <h1 className="card_heading">Jone Due</h1>
+                <img src="/image/014-instagram.png" alt="" style={{ margin: ' 15px 0 0 80px', height: '5%' }} />
+              </div>
+
+              <div >
+                <p className="card_small_heading">Printing Lead  <img src="/image/013-facebook.png" alt="" className="facebook" /></p>
+              </div>
             </div>
           </div>
 

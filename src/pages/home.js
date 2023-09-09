@@ -12,6 +12,7 @@ import Partners from "../components/Partners"
 import Collection from "../components/Collection"
 import Gallery from "../components/Galley"
 import Footer from "../components/Footer"
+import FooterIcon from "../components/FooterIcon";
 
 const Home = () => {
   return (
@@ -39,6 +40,7 @@ const Home = () => {
         </div>
         <Gallery />
         <Footer />
+        <FooterIcon/>
       </div>
     </>
   );

@@ -1,5 +1,5 @@
 .card{
-    background-color: rgb(241, 248, 253);
+    background-color: rgb(251, 251, 251);
     width: 83%;
     height: 100px;
     margin: -5px 0 0 0px ;
@@ -36,3 +36,12 @@
     display: flex;
     justify-content: center;
 }
+.logo_flex{
+    display: flex;
+   
+}
+.facebook{
+    margin: 3px 0 0 114px;
+    color: black;
+}
+

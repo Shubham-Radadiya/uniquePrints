@@ -7,7 +7,7 @@ export default function HomeImg() {
 
   return (
     <>
-    <img className='home_img' src="/image/Mask Group 19.png" alt="" />
+    <img className='home_img' src="/image/banner_cat_retail-packaging_d.png" alt="" />
     </>
   )
 }
