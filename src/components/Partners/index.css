@@ -21,3 +21,35 @@
     font-size: 40px;
     margin: 0 0 30px 0;
 }
+@media only screen and (max-width: 420px) {
+    .partners_bg_orange{
+        width: 100%;
+        height: 70px;
+    }
+    .repeat_grid{
+        width: 18%;
+        height: 25px;
+        margin: auto 5px;
+    }
+    .partners_small_heading{
+        margin:  5px 0 0 0;
+        font-size: 15px ;
+ }
+    .partners_heading{
+        font-size: 20px;
+        margin: 5px auto;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .partners_bg_orange{
+        height: 50px;
+    }
+    .partners_small_heading{
+        margin:  5px 0 0 0;
+        font-size: 15px ;
+ }
+    .partners_heading{
+        font-size: 20px;
+        margin: 5px auto;
+    }
+}

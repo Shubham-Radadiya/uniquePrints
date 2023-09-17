@@ -1,47 +1,86 @@
-.card{
-    background-color: rgb(251, 251, 251);
-    width: 83%;
-    height: 100px;
-    margin: -5px 0 0 0px ;
-    padding: 30px 0 0 40px;
+.card {
+  background-color: rgb(241, 248, 253);
+  width: 83%;
+  height: 100px;
+  margin: -5px 0 0 0px;
+  padding: 30px 0 0 40px;
 }
-.card_heading{
+.card_heading {
+  margin: 0;
+}
+.card_small_heading {
+  margin: 0;
+  font-size: 18px;
+}
+.team_heading {
+  text-align: center;
+  margin: 0;
+  font-size: 35px;
+}
+.small_team_heading {
+  text-align: center;
+  margin: 90px 0 0 0;
+  color: rgb(255, 74, 48);
+}
+.img_team {
+  margin: 30px 0 0 0px;
+  height: 400px;
+  width: 95%;
+}
+
+.card:hover {
+  background-color: rgb(255, 74, 48);
+  color: white;
+}
+.card_flex {
+  display: flex;
+  justify-content: center;
+}
+.logo_flex {
+  display: flex;
+}
+.facebook {
+  margin: 3px 0 0 114px;
+  color: black;
+}
+
+@media only screen and (max-width: 420px) {
+  .img_team {
     margin: 0;
-}
-.card_small_heading{
+    height: 190px;
+    width: 70%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    justify-content: flex-start;
+  }
+  .card {
+    width: 70%;
+    height: 60px;
+    margin: 0 0 0 20px;
+    padding: 0;
+    font-size: 5px;
+  }
+  .card_small_heading {
     margin: 0;
-    font-size: 18px;
-    /* color:rgba(0, 0, 0, 0.662); */
-}
-.team_heading{
-    text-align: center;
-    margin: 0;
-    font-size: 35px;
-}
-.small_team_heading{
-    text-align: center;
-   margin: 90px 0 0 0;
-    color: rgb(255, 74, 48);
-}
-.img_team{
-    margin: 30px 0 0 0px;
-    height: 400px;
-    width: 95%;
-}
-.card:hover{
-    background-color: rgb(255, 74, 48);
-    color: white;
-}
-.card_flex{
-    display: flex;
-    justify-content: center;
-}
-.logo_flex{
-    display: flex;
-   
-}
-.facebook{
-    margin: 3px 0 0 114px;
-    color: black;
+    font-size: 12px;
+    padding: 0px 0 0 10px;
+  }
+  .card_heading {
+    padding: 10px 0 0 10px;
+  }
+  .card_flex {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .team_heading {
+    font-size: 25px;
+    margin: -5px 0 0 0;
+  }
+  .small_team_heading {
+    margin: 30px 0 0 0;
+  }
 }
 

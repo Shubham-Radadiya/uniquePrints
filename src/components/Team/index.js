@@ -10,7 +10,7 @@ export default function Team() {
           <h1 className="team_heading">Team Members</h1>
         </div>
         <div className="card_flex">
-          <div>
+          <div className="team">
             <img className="img_team" src="/image/team-1.png" alt="" />
             <div className="card">
               <div className="logo_flex">
@@ -25,7 +25,7 @@ export default function Team() {
             </div>
           </div>
 
-          <div>
+          <div  className="team">
             <img className="img_team" src="/image/team-2.png" alt="" />
             <div className="card">
             <div className="logo_flex">
@@ -39,7 +39,7 @@ export default function Team() {
             </div>
           </div>
 
-          <div>
+          <div className="team">
             <img className="img_team" src="/image/team-3.png" alt="" />
             <div className="card">
             <div className="logo_flex">
@@ -53,7 +53,7 @@ export default function Team() {
             </div>
           </div>
 
-          <div>
+          <div className="team">
             <img className="img_team" src="/image/team-05.png" alt="" />
             <div className="card">
             <div className="logo_flex">

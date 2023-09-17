@@ -12,7 +12,7 @@ import Partners from "../components/Partners"
 import Collection from "../components/Collection"
 import Gallery from "../components/Galley"
 import Footer from "../components/Footer"
-import FooterIcon from "../components/FooterIcon";
+
 
 const Home = () => {
   return (
@@ -32,7 +32,10 @@ const Home = () => {
           <Product />
         </div>
         <Team />
+        <div className="bg_productImg">
         <ProductImg />
+        </div>
+       
         <Machine />
         <Partners />
         <div className="bg_collection">
@@ -40,7 +43,6 @@ const Home = () => {
         </div>
         <Gallery />
         <Footer />
-        <FooterIcon/>
       </div>
     </>
   );

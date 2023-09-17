@@ -11,20 +11,18 @@ export default function DesignPgn() {
         </div>
         <div className="img">
           <p className="three_bg">
-            <h1>Packaging Design</h1>
-            <h2>50 cards from $19.99</h2>
-            <span className="text">Cut through the networking <br /> clutter and say hello with <br /> printify business Cards.</span>
-            
+            <h1 className="three_heading">Packaging Design</h1>
+            <h2 className="three_sub_heading">50 cards from $19.99</h2>
+            <span className="text">Cut through the networking  clutter and say hello with printify business Cards.</span>
           </p>
-         
+
           <p className="four_bg">
-          <h1>Packaging Design</h1>
-            <h2>50 cards from <span style={{color:'rgb(255, 67, 40)'}}>$19.99</span> </h2>
-            <span className="text_four">Cut through the networking <br /> clutter and say hello with <br /> printify business Cards.</span>
-            
+            <h1 className="three_heading">Packaging Design</h1>
+            <h2 className="three_sub_heading">50 cards from <span style={{ color: 'rgb(255, 67, 40)' }}>$19.99</span> </h2>
+            <span className="text_four">Cut through the networking  clutter and say hello with  printify business Cards.</span>
           </p>
         </div>
-        
+
       </div>
       <img className="error" src="/image/Group 213.png" alt="" />
       <img className="error-1" src="/image/Group 213.png" alt="" />

@@ -1,39 +1,114 @@
 .Testimonial_bg {
-    background-image: url(/public/image/WhatsApp\ Image\ 2023-09-09\ at\ 13.59.30.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 370px;
-    margin: 0;
+  background-image: url(/public/image/WhatsApp\ Image\ 2023-09-09\ at\ 13.59.30.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 370px;
+  margin: 0;
+}
+.Testimonial_heading {
+  margin: 0;
+  padding: 100px 0 0 0;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.Testimonial_sub_heading {
+  margin: 10px 0 0 0;
+  color: white;
+  text-align: center;
+}
+.review_flex {
+  display: flex;
+}
+.star_flex {
+  display: flex;
+  margin: -10px 0 0 0;
+}
+.review {
+  width: 80%;
+  margin: 15px 0px 15px 25px;
+}
+.review_bg {
+  background-color: rgb(255, 67, 40);
+  color: white;
+  width: 100%;
+  margin: 35px 0 0 0px;
+  border-radius: 20px;
+}
+.quot_flex {
+  display: flex;
+  align-items: center;
+  margin-left: 28px;
+}
+.quot_img {
+  width: 40px;
+  height: 40px;
+  margin: 15px 0px 0 150px;
+}
+.review_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 15px 20px 0 0;
+}
+.review_contain_flex {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+.sub_contain {
+  width: 30%;
+}
+.tutorial_descMain {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 420px) {
+  .Testimonial_bg {
+    height: 130px;
   }
   .Testimonial_heading {
-    margin: 0;
-    padding: 100px 0 0 0;
-    text-align: center;
-    font-size: 50px;
-    color: white;
+    padding: 40px 0 0 0;
+    font-size: 22px;
   }
   .Testimonial_sub_heading {
-    margin: 10px 0 0 0;
-    color: white;
-    text-align: center;
-  }
-  .review_flex{
-    display: flex;
-  }
-  .star_flex{
-    display: flex;
     margin: 0;
+    font-size: 7px;
   }
-  .review{
+  .review_flex {
+    display: block;
+  }
+  .review {
     width: 90%;
-    margin: 0 0 15px 0;
+    font-size: 10px;
+    margin: 5px 0px 10px 25px;
   }
-  .review_bg{
-        background-color:rgb(255, 67, 40) ;
-        color: white;
-        width: 27%;
-        margin: 50px 0 0 100px;
-        border-radius: 20px;
-        padding: 20px 0px 30px 30px;
+  .review_bg {
+    margin: 20px 0 0 20px;
   }
+  .quot_flex {
+    margin-left: 25px;
+  }
+  .quot_img {
+    margin: 15px 0px 0 100px;
+  }
+  .review_contain_flex {
+    display: block;
+  }
+  .sub_contain {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  
+  .quot_flex {
+   justify-content: space-around;
+    margin-left: 20px;
+  }
+  .quot_img {
+    margin: 15px 20px 0 50px;
+  }
+}

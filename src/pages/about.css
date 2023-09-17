@@ -19,7 +19,7 @@
   text-align: center;
 }
 .about_text {
-  width: 87%;
+  width: 85%;
   margin: 30px auto;
   font-size: 18px;
 }
@@ -56,27 +56,120 @@
     font-size: 18px;
     margin: 0 0 30px 100px;
 }
+.mision{
+  width: 100%;
+}
+.eye_container_flex{
+  display: flex;
+  width: 90%;
+  margin: 0px auto ;
+  align-items: center;
+  justify-content: center;
+}
 .eye_flex{
-    display: flex;
-    width: 90%;
-    margin: 150px auto 0 auto;
-    justify-content: flex-start;
-    align-items: flex-start;
+  display: flex;
+}
+.aim_img{
+  width: 40%;
 }
 .eye_heading{
-    width: 60%;
+    width: 50%;
     font-size: 50px;
     color: rgb(255, 67, 40);
-    margin: 0 0 0 30px;
+    margin: 0 0 0 20px;
 }
 .eye_text{
     margin: 20px 0 0 30px;
 }
-.aim{
-    font-size: 40px;
-    color: rgb(255, 67, 40);
-    margin: 0 450px 0 0;
-}
 .aim_text{
     font-size: 20px;
 }
+.aim_flex{
+  display: flex;
+}
+.aim_name{
+  color:  rgb(255, 67, 40);
+  margin: 0 ;
+  font-size: 40px;
+}
+@media only screen and (max-width: 420px) {
+  .about_bg {
+    height: 130px;
+  }
+  .about_heading {
+    padding: 50px 0 0 0;
+    font-size: 20px;
+  }
+  .about_sub_heading {
+    margin: 0px 0 0 0;
+font-size: 7px;
+  }
+  .about_text {
+    margin: 20px auto ;
+    font-size: 13px;
+  }
+  .about_sentence {
+    width: 88%;
+    font-size: 13px;
+    margin: 0 auto 20px auto;
+  }
+  .plan_flex {
+   margin: 0 0 20px 30px;
+  }
+  .plan_bg {
+    width: 60%;
+    height: 150px;
+  }
+  .plan_heading{
+      font-size: 18px;
+      padding: 5px 0 0 20px;
+      margin: 15px 0  0 0 ;
+  }
+  .plan_text{
+      width: 80%;
+      font-size: 9px;
+      margin: 10px 0 0 20px;
+  }
+  .vision{
+      font-size: 18px;
+      padding: 10px 0 0 20px;
+      margin: 5px 0;
+  }
+  .vision_text{
+      width: 80%;
+      font-size: 8px;
+      margin: 0 0 0px 20px;
+  }
+  .mision{
+    width: 35%;
+
+  }
+  .aim_flex{
+    display: block;
+  }
+  .eye_flex{
+    display: block;
+  }
+  .eye_container_flex{
+    display: flex;
+    align-items: center;
+  }
+  .eye_heading{
+      width: 80%;
+      font-size: 15px;
+      margin: 0 0 0 30px;
+  }
+  .eye_text{
+      margin: 5px 0 0 30px;
+      font-size: 10px;
+  }
+  .aim_text{
+      font-size: 10px;
+  }
+  .aim_img{
+    width: 80%;
+  }
+  .aim_name{
+    font-size: 20px;
+  }
+  }

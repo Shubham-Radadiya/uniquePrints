@@ -6,13 +6,23 @@ import Services from "./pages/services";
 import Contact from "./pages/contact";
 import About from "./pages/about.js";
 import Testimonial from "./pages/testimonial";
+import { useEffect, useRef, useState } from "react";
 
 
 const App = () => {
+  const [topref, setTopref] = useState({});
+  let webTop = useRef(null);
+
+  useEffect(() => {
+    console.log(webTop);
+    const updateref = setTopref({
+      webTop
+    });
+  }, []);
   return (
     <div className="app-container">
       <Router>
-        <div>
+        <div  className="App" ref={webTop}>
           <Navbar />
         </div>
         <Routes>

@@ -6,11 +6,12 @@ export default function HomeDetails() {
     <>
       <div className="contain">
         <h4 className="small_heading">premium paper products</h4>
-        <h1 className="heading">Elevate Your Brand with Mono Carton Boxes</h1>
+        <h1 className="heading">The Most Trusted Name In <span style={{color:'rgb(255, 67, 40)'}}>PACKAGING INDUSTRIES</span> 
+</h1>
         <p className="pg">
-          Discover a world of packaging possibillities with our <br /> premium
-          mono carton boxes.Crafted with precision and <br /> designed for
-          impact , our boxes provide the ideal <br /> packaging solution for
+          Discover a world of packaging possibillities with our  premium
+          mono carton boxes.Crafted with precision and  designed for
+          impact , our boxes provide the ideal  packaging solution for
           your products.
         </p>
       </div>

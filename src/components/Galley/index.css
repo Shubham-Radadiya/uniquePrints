@@ -1,39 +1,101 @@
-.gallery_flex{
-    display: flex;
-    /* flex-direction: row; */
+.gallery_flex {
+  display: flex;
+  justify-content: center;
+  margin: 20px 80px 0 0;
+}
+.img_1 {
+  width: 49%;
+  margin: 0 10px 0 0;
+  height: 280px;
+}
+.img_2 {
+  width: 48.5%;
+  margin: 0;
+  height: 280px;
+}
+.img_3 {
+  width: 98.5%;
+  margin: 7px 0 0 0;
+}
+.img_4 {
+  width: 35%;
+  margin: 0;
+  height: 665px;
+}
+.gallery_sub_flex {
+  margin: 0 0 0 100px;
+}
+.gallery_small_heading {
+  text-align: center;
+  margin: 60px 0 0 0;
+  font-family: cursive;
+  color: rgb(255, 67, 40);
+}
+.gallery_heading {
+  margin: 0;
+  text-align: center;
+  font-size: 35px;
+}
+@media only screen and (max-width: 420px) {
+  .gallery_flex {
+    display: block;
     justify-content: center;
-    margin: 20px 80px 0 0;
-}
-.img_1{
-    width:49%;
-    margin: 0 10px 0 0;
-    height: 280px;
-}
-.img_2{
-    width:48.5%;
+    margin: 20px auto;
+  }
+  .gallery_sub_flex {
+    margin: 0 auto;
+  }
+  .gallery_small_heading {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+  }
+  .gallery_heading {
     margin: 0;
-    height: 280px;
-}
-.img_3{
-    width:98.5%;
-    margin: 7px 0 0 0;
-}
-.img_4{
-    width:35%;
+    font-size: 28px;
+  }
+  .img_1 {
+    width: 45%;
+    margin: 0 6px 0 20px;
+    height: 120px;
+  }
+  .img_2 {
+    width: 45%;
     margin: 0;
-    height: 665px;
+    height: 120px;
+  }
+  .img_3 {
+    width: 92%;
+    margin: 3px 0 0 19px;
+    height: 170px;
+  }
+  .img_4 {
+    width: 92%;
+    margin: 0 0 0 19px;
+    height: 160px;
+  }
 }
-.gallery_sub_flex{
-    margin: 0 0 0 100px;
-}
-.gallery_small_heading{
-    text-align: center;
-    margin: 60px 0 0 0;
-    font-family: cursive;
-    color: rgb(255, 67, 40);
-}
-.gallery_heading{
+@media only screen and (max-width: 390px) {
+  .img_1 {
+    width: 45%;
+    margin: 0 6px 0 20px;
+    height: 100px;
+  }
+  .img_2 {
+    width: 45%;
     margin: 0;
-    text-align: center;
-    font-size:35px;
+    height: 100px;
+  }
+  .img_3 {
+    width: 92%;
+    margin: 3px 0 0 19px;
+    height: 130px;
+  }
+  .img_4 {
+    width: 92%;
+    margin: 0 0 0 19px;
+    height: 140px;
+  }
+  .gallery_heading {
+    font-size: 24px;
+  }
 }
