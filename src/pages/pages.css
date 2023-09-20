@@ -41,7 +41,7 @@ margin: 300px auto 0 0 ;
   }
   .bg_product{
   margin: 0px auto ;
-   height: 470px !important;
+   height: 420px !important;
   }
   .bg_productImg{
     background-color: rgb(241, 248, 253);
@@ -75,7 +75,7 @@ margin: 300px auto 0 0 ;
   }
  
 
-@media only screen and (max-width: 820px) {
+/* @media only screen and (max-width: 820px) {
   .bg{
     margin: 0px  !important;
     height: 30px !important;
@@ -97,4 +97,4 @@ margin: 300px auto 0 0 ;
     height: 480px;
     margin: 0;
   }
-  }
+  } */

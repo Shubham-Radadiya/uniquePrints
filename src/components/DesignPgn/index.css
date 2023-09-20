@@ -97,8 +97,30 @@
     font-size: 16px !important;
   }
 }
+@media only screen and (max-width: 375px) {
 
-@media only screen and (max-width: 820px) {
+  .error {
+    margin: -20px 0 0 135px !important ;
+    width: 35px !important;
+  }
+  .error-1 {
+    margin: -20px 0 0 300px !important;
+    width: 35px !important;
+  }
+ 
+}
+@media only screen and (max-width: 390px) {
+
+  .error {
+    margin: -20px 0 0 140px !important ;
+  }
+  .error-1 {
+    margin: -20px 0 0 310px !important;
+ 
+  }
+ 
+}
+/* @media only screen and (max-width: 820px) {
   .img_1_designPgn {
     width: 35% !important;
     margin: 15px 10px 5px 80px !important;
@@ -146,4 +168,4 @@
   .three_heading {
     font-size: 25px!important;
   } 
-}
+} */
