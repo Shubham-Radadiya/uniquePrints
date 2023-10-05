@@ -6,8 +6,8 @@
 .product_containn {
   width: 35%;
   right: 0;
-  top: 20px;
-  padding: 100px 110px 0 0px;
+  top: 10px;
+  padding: 100px 100px 0 0px;
   float: right;
   position: absolute;
   z-index: 1;
@@ -23,38 +23,24 @@
   color: white;
 }
 .birdland_img {
-  top: 90px;
+  top: 40px;
   width: 60%;
   position: absolute;
   height: 500px;
 }
-
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 320px) {
   .small_heading_product {
     font-family: cursive;
     margin: 0 auto;
     font-size: 12px;
   }
   .product_containn {
-    width: 80%;
-    top: 260px;
-    left: 50px;
-    padding: 0px;
+    width: 90% !important;
+    top: 180px !important;
   }
-  .text_product {
-    margin: 0px auto;
-    font-size: 12px;
-    color: white;
-  }
-  .heading_product {
-    margin: 5px auto;
-    font-size: 15px;
-  }
+
   .birdland_img {
-    top: 0px;
-    width: 100%;
-    position: absolute;
-    height: 280px;
+    height: 200px !important;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -76,5 +62,79 @@
     top: 190px;
     left: 30px;
   }
-  
 }
+@media only screen and (max-width: 420px) {
+  .small_heading_product {
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .product_containn {
+    width: 80%;
+    top: 230px;
+    left: 50px;
+    padding: 0px;
+  }
+  .text_product {
+    margin: 0px auto;
+    font-size: 12px;
+  }
+  .heading_product {
+    margin: 5px auto;
+    font-size: 15px;
+  }
+  .birdland_img {
+    top: 0px;
+    width: 100%;
+    height: 250px;
+  }
+}
+/* @media only screen and (max-width: 768px) {
+  .small_heading_product {
+    font-size: 20px;
+  }
+  .product_containn {
+    width: 42%;
+    top: 0px;
+    padding: 30px 10px 0 0px;
+  }
+  .heading_product {
+    font-size: 27px;
+  }
+  .text_product {
+    font-size: 14px;
+  }
+  .birdland_img {
+    top: 20px;
+    height: 380px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .small_heading_product {
+    font-size: 20px;
+  }
+  .product_containn {
+    width: 40%;
+
+    padding: 30px 15px 0 0px;
+  }
+  .heading_product {
+    font-size: 30px;
+  }
+  .text_product {
+    font-size: 16px;
+  }
+  .birdland_img {
+    top: 20px;
+    height: 390px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .product_containn {
+    top: 0px;
+    padding: 90px 100px 0 0px;
+  }
+  .birdland_img {
+    top: 30px;
+    height: 520px;
+  }
+} */

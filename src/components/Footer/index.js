@@ -7,7 +7,7 @@ export default function Footer() {
             <div className='footer_bg'>
                 <div className='footer_flex'>
                     <div className='footer_paragraph'>
-                        <p>Printify is an online design,copying and printing <br />company that is passionate about great design <br /> and the difference it can make to our customers <br />and the world.</p>
+                        <p>Printify is an online design,copying and printing company that is passionate about great design  and the difference it can make to our customers and the world.</p>
                     </div>
                     <div>
                         <h2>Explore</h2>

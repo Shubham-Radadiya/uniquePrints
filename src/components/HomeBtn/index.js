@@ -1,9 +1,10 @@
 import React from 'react'
 import './index.css'
 
-export default function HomeBtn() {
 
 
+const HomeBtn = () => {
+  
 
   return (
     <>
@@ -13,3 +14,5 @@ export default function HomeBtn() {
     </>
   )
 }
+
+export default HomeBtn;
