@@ -2,122 +2,121 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  @media only screen and (max-width: 420px) {
+    display: block;
+  }
+  @media only screen and (max-width: 768px) {
+    justify-content: space-around;
+  }
+  @media only screen and (max-width: 1024px) {
+ 
+      justify-content: space-around;
+    }
 }
 .collection_img {
   width: 34%;
   margin: 80px 0 0 0;
   height: 510px;
+  @media only screen and (max-width: 390px) {
+    width: 70%;
+    margin: 5px 0 0 60px;
+    height: 200px;
+  }
+  @media only screen and (max-width: 420px) {
+    width: 65%;
+    margin: 10px 0 0 70px;
+    height: 240px;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 34%;
+    margin: 80px 0 0 0;
+    height: 310px;
+  }
+  @media only screen and (max-width: 1024px) {
+      width: 38%;
+      margin: 80px 0 0 0;
+      height: 380px;
+    }
+    @media only screen and (max-width: 1440px) {
+ 
+        width: 37%;
+      }
 }
 .collection_contain {
   width: 30%;
   margin: 0;
+  @media only screen and (max-width: 420px) {
+    width: 90%;
+    margin: 20px auto;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 45%;
+    margin: 0;
+  }
+  @media only screen and (max-width: 1024px) {
+  
+      width: 40%;
+      margin: 0;
+    }
+    @media only screen and (max-width: 1440px) {
+        width: 35%;
+      }
+    
 }
 .collection_small_heading {
   color: rgb(255, 67, 40);
   margin: 0;
+  @media only screen and (max-width: 420px) {
+    margin: 0;
+    padding: 10px 0 5px 0;
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 768px) {
+    color: rgb(255, 67, 40);
+    margin: 20px 0 0 0;
+  }
+  @media only screen and (max-width: 1024px) {
+ 
+      color: rgb(255, 67, 40);
+      margin: 30px 0 0 0;
+    }
 }
 .collection_heading {
   font-size: 36px;
   margin: 0;
+  @media only screen and (max-width: 420px) {
+    font-size: 23px;
+    margin: 0;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 30px;
+    margin: 0;
+  }
+  @media only screen and (max-width: 1024px) {
+ 
+      font-size: 32px;
+      margin: 0;
+    }
 }
 .collection_text {
   font-size: 19px;
   color: rgba(0, 0, 0, 0.5);
   margin: 25px 0 0 0;
-}
-@media only screen and (max-width: 390px) {
-  .collection_img {
-    width: 70%;
-    margin: 5px 0 0 60px;
-    height: 200px;
-  }
-}
-@media only screen and (max-width: 420px) {
-  .collection_flex {
-    display: block;
-  }
-  .collection_img {
-    width: 65%;
-    margin: 10px 0 0 70px;
-    height: 240px;
-  }
-  .collection_contain {
-    width: 90%;
-    margin: 20px auto;
-  }
-  .collection_small_heading {
-    margin: 0;
-    padding: 10px 0 5px 0;
-    font-size: 20px;
-  }
-  .collection_heading {
-    font-size: 23px;
-    margin: 0;
-  }
-  .collection_text {
+  @media only screen and (max-width: 420px) {
     font-size: 10px;
     margin: 10px 0 0 0;
   }
-}
-/* @media only screen and (max-width: 768px) {
-  .collection_flex {
-    justify-content: space-around;
-  }
-  .collection_img {
-    width: 34%;
-    margin: 80px 0 0 0;
-    height: 310px;
-  }
-  .collection_contain {
-    width: 45%;
-    margin: 0;
-  }
-  .collection_small_heading {
-    color: rgb(255, 67, 40);
-    margin: 20px 0 0 0;
-  }
-  .collection_heading {
-    font-size: 30px;
-    margin: 0;
-  }
-  .collection_text {
+  @media only screen and (max-width: 768px) {
     font-size: 15px;
     color: rgba(0, 0, 0, 0.5);
     margin: 25px 0 0 0;
   }
+  @media only screen and (max-width: 1024px) {
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.5);
+      margin: 25px 0 0 0;
+    }
+  
 }
-@media only screen and (max-width: 1024px) {
-  .collection_flex {
-    justify-content: space-around;
-  }
-  .collection_img {
-    width: 38%;
-    margin: 80px 0 0 0;
-    height: 380px;
-  }
-  .collection_contain {
-    width: 40%;
-    margin: 0;
-  }
-  .collection_small_heading {
-    color: rgb(255, 67, 40);
-    margin: 30px 0 0 0;
-  }
-  .collection_heading {
-    font-size: 32px;
-    margin: 0;
-  }
-  .collection_text {
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.5);
-    margin: 25px 0 0 0;
-  }
-}
-@media only screen and (max-width: 1440px) {
-  .collection_img {
-    width: 37%;
-  }
-  .collection_contain {
-    width: 35%;
-  }
-} */
+
+

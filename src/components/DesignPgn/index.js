@@ -6,8 +6,8 @@ export default function DesignPgn() {
     <>
       <div>
         <div className="img_flex_designPgn">
-          <img className="img_1_designPgn" src="/image/30e072ee-5466-4199-85b0-4a600161d5f0.png" alt="" />
-          <img className="img_2_designPgn" src="/image/Group 119.png" alt="" />
+          <img className="img_1_designPgn" src="/image/DSC_1333.JPG" alt="" />
+          <img className="img_2_designPgn" src="/image/DSC_1342.JPG" alt="" />
         </div>
         <div className="img">
           <p className="three_bg">
@@ -24,8 +24,8 @@ export default function DesignPgn() {
         </div>
 
       </div>
-      <img className="error" src="/image/Group 213.png" alt="" />
-      <img className="error-1" src="/image/Group 213.png" alt="" />
+      {/* <img className="error" src="/image/Group 213.png" alt="" /> */}
+      {/* <img className="error-1" src="/image/Group 213.png" alt="" /> */}
     </>
   );
 }

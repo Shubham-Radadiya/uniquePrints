@@ -1,116 +1,120 @@
 .contain {
-  width: 90%;
+  width: 70%;
   margin: 100px auto 0 100px;
+
+  @media only screen and (max-width: 320px) {
+    width: 90% !important;
+    margin: 0px 0 0 20px !important;
+  }
+
+  /* @media only screen and (max-width: 390px) {
+    width: 95% !important;
+    margin: 0px 0 0 20px !important;
+  }
+
+  @media only screen and (max-width: 420px) {
+    width: 95% !important;
+    margin: 0 0 0 15px;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 100% !important;
+  }
+  @media only screen and (max-width: 1024px) {
+    width: 90%;
+  }
+  @media only screen and (max-width: 1440px) {
+    width: 80%;
+  } */
 }
 .small_heading {
   font-size: 25px;
   font-family: cursive;
-  /* color: rgb(255, 67, 40); */
   margin: 150px auto 0 auto;
+
+  @media only screen and (max-width: 320px) {
+    font-size: 16px;
+    font-family: cursive;
+    margin: 10px auto 0 auto;
+  }
+
+  /* @media only screen and (max-width: 420px) {
+    margin: 0 !important;
+    font-size: 20px !important;
+    padding: 15px 0 0 0 !important;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 20px !important ;
+    margin: 0px !important ;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 25px;
+    font-family: cursive;
+    margin: 80px auto 0 auto;
+  }
+  @media only screen and (max-width: 1440px) {
+    font-size: 25px;
+    font-family: cursive;
+    margin: 120px auto 0 auto;
+  } */
 }
 .heading {
   font-size: 40px;
   margin: 0 auto;
+
+  @media only screen and (max-width: 320px) {
+    font-size: 20px !important;
+  }
+  /* @media only screen and (max-width: 390px) {
+    font-size: 27px !important;
+  }
+
+  @media only screen and (max-width: 420px) {
+    font-size: 30px !important;
+    margin: 5px 0 !important;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 25px !important;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 35px;
+    margin: 0 auto;
+  }
+  @media only screen and (max-width: 1440px) {
+    font-size: 35px;
+    margin: 0 auto;
+  } */
 }
 .pg {
   font-size: 17px;
   color: rgba(0, 0, 0, 0.603);
   margin: 20px auto;
-}
-@media only screen and (max-width: 320px) {
-  .heading {
-    font-size: 27px !important;
+
+  @media only screen and (max-width: 320px) {
+    width: 85% !important;
+    font-size: 10px !important;
+    color: rgba(0, 0, 0, 0.603);
+    margin: 10px 0 !important;
   }
-  .contain {
-    width: 95% !important;
-    margin: 0px 0 0 20px !important;
-  }
-}
-@media only screen and (max-width: 390px) {
-  .heading {
-    font-size: 27px !important;
-  }
-  .contain {
-    width: 95% !important;
-    margin: 0px 0 0 20px !important;
-  }
-}
-@media only screen and (max-width: 420px) {
-  .small_heading {
-    margin: 0 !important;
-    font-size: 20px !important;
-    padding: 15px 0 0 0 !important;
-  }
-  .heading {
-    font-size: 30px !important;
-    margin: 5px 0 !important;
-  }
-  .contain {
-    width: 95% !important;
-    margin: 0 0 0 15px;
-  }
-  .pg {
+  /* @media only screen and (max-width: 420px) {
     width: 85% !important;
     font-size: 14px !important;
     color: rgba(0, 0, 0, 0.603);
     margin: 10px 0 !important;
   }
-}
-/* @media only screen and (max-width: 768px) {
-  .small_heading {
-    font-size: 20px !important ;
-    margin: 0px !important ;
-  }
-  .heading {
-    font-size: 25px !important;
-  }
-  .contain {
-    width: 100% !important;
-
-  }
-  .pg {
+  @media only screen and (max-width: 768px) {
     width: 80% !important;
     font-size: 15px !important;
     color: rgba(0, 0, 0, 0.603);
     margin: 10px 0 !important;
   }
-}
-@media only screen and (max-width: 1024px) {
-  .contain {
-    width: 90%;
-  
-  }
-  .small_heading {
-    font-size: 25px;
-    font-family: cursive;
-    margin: 80px auto 0 auto;
-  }
-  .heading {
-    font-size: 35px;
-    margin: 0 auto;
-  }
-  .pg {
+  @media only screen and (max-width: 1024px) {
     font-size: 17px;
     color: rgba(0, 0, 0, 0.603);
     margin: 20px auto;
   }
-}
-@media only screen and (max-width: 1440px) {
-  .contain {
-    width: 80%;
-   }
-  .small_heading {
-    font-size: 25px;
-    font-family: cursive;
-    margin: 120px auto 0 auto;
-  }
-  .heading {
-    font-size: 35px;
-    margin: 0 auto;
-  }
-  .pg {
+  @media only screen and (max-width: 1440px) {
     font-size: 17px;
     color: rgba(0, 0, 0, 0.603);
     margin: 20px auto;
-  }
-} */
+  } */
+}

@@ -1,24 +1,89 @@
 .bg {
   background-color: rgb(248, 248, 248);
   width: 100%;
-  height: 780px;
+  height: 600px;
   position: relative;
   display: flex;
+  @media only screen and (max-width: 420px) {
+    display: block !important;
+    margin: 0 !important;
+    height: 600px !important;
+  }
+  @media only screen and (max-width: 390px) {
+    height: 570px !important;
+  }
+  @media only screen and (max-width: 768px) {
+    margin: 0px !important;
+    height: 360px !important;
+  }
+  @media only screen and (max-width: 1024px) {
+    margin: 0px !important;
+    height: 460px !important;
+  }
+  @media only screen and (max-width: 1440px) {
+    margin: 0px !important;
+    height: 560px !important;
+  }
 }
 .design_bg {
   background-color: rgb(254, 254, 254);
   width: 100%;
   height: auto;
   margin: 0 auto;
+  @media only screen and (max-width: 320px) {
+    height: 20px !important;
+  }
+  @media only screen and (max-width: 390px) {
+    height: 340px;
+  }
+  @media only screen and (max-width: 420px) {
+    height: 340px !important;
+    margin: 0 auto;
+  }
+  @media only screen and (max-width: 768px) {
+    height: 510px !important;
+    margin: 0 auto !important;
+  }
+  @media only screen and (max-width: 1024px) {
+    height: 510px !important;
+    margin: 0 auto !important;
+  }
+  @media only screen and (max-width: 1440px) {
+    height: 750px !important;
+    margin: 0 auto !important;
+  }
 }
 .bg_product {
   background-image: url(/public//image//Group\ 151.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  margin:40px auto 0 0;
+  margin: 40px auto 0 0;
   height: 550px;
   position: relative;
+  @media only screen and (max-width: 320px) {
+    margin: 0px auto 0 0;
+    height: 400px !important;
+  }
+  @media only screen and (max-width: 390px) {
+    height: 400px;
+  }
+  @media only screen and (max-width: 420px) {
+    margin: 0px auto;
+    height: 420px !important;
+  }
+  @media only screen and (max-width: 768px) {
+    margin: 0px auto !important ;
+    height: 400px !important;
+  }
+  @media only screen and (max-width: 1024px) {
+    margin: 0px auto !important ;
+    height: 430px !important;
+  }
+  @media only screen and (max-width: 1440px) {
+    margin: 0px auto !important ;
+    height: 550px !important;
+  }
 }
 .bg_collection {
   background-image: url(/public/image/Group\ 1566.png);
@@ -27,128 +92,23 @@
   width: 100%;
   height: 680px;
   margin: 0;
-}
-@media only screen and (max-width: 320px) {
-  .design_bg {
-    height: 20px !important;
-  }
-  .bg_product {
-    margin: 300px 0 0 0;
-    height: 390px !important;
-  }
-}
-@media only screen and (max-width: 320px) {
-  .bg {
-    height: 550px !important;
-  }
-  .bg_product {
-    margin: 0px auto 0 0;
-    height: 400px !important;
-  }
-}
-@media only screen and (max-width: 390px) {
-  .bg {
-    height: 570px !important;
-  }
-  .design_bg {
-    height: 340px;
-  }
-  .bg_product {
-    height: 400px;
-  }
-  .bg_collection {
+  @media only screen and (max-width: 390px) {
     height: 440px;
   }
-}
-@media only screen and (max-width: 420px) {
-  .bg {
-    display: block !important;
-    margin: 0 !important;
-    height: 600px !important;
-  }
-  .design_bg {
-    height: 340px !important;
-    margin: 0 auto;
-  }
-  .bg_product {
-    margin: 0px auto;
-    height: 420px !important;
-  }
-  .bg_productImg {
-    background-color: rgb(241, 248, 253);
-    width: 100% !important;
-    height: 350px !important;
-  }
-  .bg_collection {
+  @media only screen and (max-width: 420px) {
     height: 480px !important;
     margin: 0;
   }
-}
-/* @media only screen and (max-width: 768px) {
-  .bg {
-    margin: 0px !important;
-    height: 360px !important;
-  }
-  .design_bg {
-    height: 510px !important;
-    margin: 0 auto !important;
-  }
-  .bg_product {
-    margin: 0px auto !important ;
-    height: 400px !important;
-  }
-  .bg_productImg {
-    background-color: rgb(241, 248, 253);
-    width: 100%;
-    height: 350px;
-  }
-  .bg_collection {
+  @media only screen and (max-width: 768px) {
     height: 480px;
     margin: 0;
   }
-}
-@media only screen and (max-width: 1024px) {
-  .bg {
-    margin: 0px !important;
-    height: 460px !important;
-  }
-  .design_bg {
-    height: 510px !important;
-    margin: 0 auto !important;
-  }
-  .bg_product {
-    margin: 0px auto !important ;
-    height: 430px !important;
-  }
-  .bg_productImg {
-    background-color: rgb(241, 248, 253);
-    width: 100%;
-    height: 550px;
-  }
-  .bg_collection {
+  @media only screen and (max-width: 1024px) {
     height: 500px;
     margin: 0;
   }
-}
-@media only screen and (max-width: 1440px) {
-  .bg {
-    margin: 0px !important;
-    height: 560px !important;
-  }
-  .design_bg {
-    height: 750px !important;
-    margin: 0 auto !important;
-  }
-  .bg_product {
-    margin: 0px auto !important ;
-    height: 550px !important;
-  }
-  .bg_productImg {
-    background-color: rgb(241, 248, 253);
-    height: 650px;
-  }
-  .bg_collection {
+  @media only screen and (max-width: 1440px) {
     height: 650px;
     margin: 0;
   }
-} */
+}

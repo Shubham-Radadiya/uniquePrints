@@ -1,140 +1,124 @@
 .small_heading_product {
   font-family: cursive;
-  margin: 20px auto 0 auto;
   font-size: 25px;
+  margin: 0;
+  @media only screen and (max-width: 320px) {
+    font-family: cursive;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  @media only screen and (max-width: 420px) {
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 20px;
+  }
 }
 .product_containn {
   width: 35%;
   right: 0;
   top: 10px;
-  padding: 100px 100px 0 0px;
   float: right;
-  position: absolute;
-  z-index: 1;
-}
-.heading_product {
-  margin: 10px auto 0 auto;
-  font-size: 35px;
-  color: white;
-}
-.text_product {
-  margin: 10px auto;
-  font-size: 20px;
-  color: white;
-}
-.birdland_img {
-  top: 40px;
-  width: 60%;
-  position: absolute;
-  height: 500px;
-}
-@media only screen and (max-width: 320px) {
-  .small_heading_product {
-    font-family: cursive;
-    margin: 0 auto;
-    font-size: 12px;
-  }
-  .product_containn {
+  @media only screen and (max-width: 320px) {
     width: 90% !important;
     top: 180px !important;
   }
-
-  .birdland_img {
-    height: 200px !important;
-  }
-}
-@media only screen and (max-width: 375px) {
-  .birdland_img {
-    height: 230px !important;
-  }
-  .product_containn {
+  @media only screen and (max-width: 375px) {
     width: 85% !important;
     top: 210px !important;
     left: 30px !important;
   }
-}
-@media only screen and (max-width: 390px) {
-  .birdland_img {
-    height: 200px;
-  }
-  .product_containn {
+  @media only screen and (max-width: 390px) {
     width: 85%;
     top: 190px;
     left: 30px;
   }
-}
-@media only screen and (max-width: 420px) {
-  .small_heading_product {
-    margin: 0 auto;
-    font-size: 12px;
-  }
-  .product_containn {
+  @media only screen and (max-width: 420px) {
     width: 80%;
     top: 230px;
     left: 50px;
     padding: 0px;
   }
-  .text_product {
-    margin: 0px auto;
-    font-size: 12px;
-  }
-  .heading_product {
-    margin: 5px auto;
-    font-size: 15px;
-  }
-  .birdland_img {
-    top: 0px;
-    width: 100%;
-    height: 250px;
-  }
-}
-/* @media only screen and (max-width: 768px) {
-  .small_heading_product {
-    font-size: 20px;
-  }
-  .product_containn {
+  @media only screen and (max-width: 768px) {
     width: 42%;
     top: 0px;
     padding: 30px 10px 0 0px;
   }
-  .heading_product {
-    font-size: 27px;
-  }
-  .text_product {
-    font-size: 14px;
-  }
-  .birdland_img {
-    top: 20px;
-    height: 380px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .small_heading_product {
-    font-size: 20px;
-  }
-  .product_containn {
+  @media only screen and (max-width: 1024px) {
     width: 40%;
-
     padding: 30px 15px 0 0px;
   }
-  .heading_product {
-    font-size: 30px;
-  }
-  .text_product {
-    font-size: 16px;
-  }
-  .birdland_img {
-    top: 20px;
-    height: 390px;
-  }
-}
-@media only screen and (max-width: 1440px) {
-  .product_containn {
+  @media only screen and (max-width: 1440px) {
     top: 0px;
     padding: 90px 100px 0 0px;
   }
-  .birdland_img {
+}
+.product_flexx {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.heading_product {
+  font-size: 35px;
+  color: white;
+  margin: 0;
+  @media only screen and (max-width: 420px) {
+    margin: 5px auto;
+    font-size: 15px;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 27px;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 30px;
+  }
+}
+.text_product {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  @media only screen and (max-width: 420px) {
+    margin: 0px auto;
+    font-size: 12px;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+.birdland_img {
+  width: 54.4%;
+  @media only screen and (max-width: 320px) {
+    height: 200px !important;
+  }
+
+  @media only screen and (max-width: 375px) {
+    height: 230px !important;
+  }
+  @media only screen and (max-width: 390px) {
+    height: 200px;
+  }
+  @media only screen and (max-width: 420px) {
+    top: 0px;
+    width: 100%;
+    height: 250px;
+  }
+  @media only screen and (max-width: 768px) {
+    top: 20px;
+    height: 380px;
+  }
+  @media only screen and (max-width: 1024px) {
+    top: 20px;
+    height: 390px;
+  }
+  @media only screen and (max-width: 1440px) {
     top: 30px;
     height: 520px;
   }
-} */
+}

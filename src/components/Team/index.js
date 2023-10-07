@@ -12,7 +12,7 @@ export default function Team() {
         </div>
         <div className="card_flex">
           <div className="team">
-            <img className="img_team" src="/image/team-1.png" alt="" />
+            <img className="img_team" src="/image/DSC_1317.JPG" alt="" />
             <div className="card">
             <div >
                 <h1 className="card_heading">Jone Due  <PiInstagramLogoThin className="insta"/> </h1> 

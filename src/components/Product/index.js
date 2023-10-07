@@ -4,8 +4,8 @@ import "./index.css";
 export default function Product() {
   return (
     <>
-      <div>
-        <img src="/image/birdland_elements-fs8.png" alt=""  className="birdland_img"/>
+      <div className="product_flexx">
+        <img src="/image/DSC_1202.JPG" alt=""  className="birdland_img"/>
         <div className="product_containn">
           <h3 className="small_heading_product">premium paper products</h3>
           <h1 className="heading_product">Get to know Unique Prints</h1>

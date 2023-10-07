@@ -2,15 +2,58 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  @media only screen and (max-width: 320px) {
+    margin: 10px 10px 5px 25px !important;
+    height: 130px !important;
+  }
+  @media only screen and (max-width: 768px) {
+    margin-top: 30px;
+  }
+  @media only screen and (max-width: 1024px) {
+    margin-top: 30px;
+  }
 }
 .img_1_designPgn {
   width: 34%;
   height: 390px;
   margin: 0 10px 0 0;
+  @media only screen and (max-width: 320px) {
+    height: 130px !important;
+  }
+  @media only screen and (max-width: 420px) {
+    width: 40% !important;
+    height: 140px !important;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 35% !important;
+    height: 230px !important;
+  }
+  @media only screen and (max-width: 1024px) {
+    width: 35% !important;
+    height: 230px !important;
+  }
 }
 .img_2_designPgn {
   width: 33%;
   height: 390px;
+  @media only screen and (max-width: 320px) {
+    height: 130px !important;
+    margin: 0 10px 0 20px !important;
+    width: 37% !important;
+    padding: 5px 7px 0 7px !important;
+  }
+  @media only screen and (max-width: 420px) {
+    width: 40% !important;
+    height: 140px !important;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 35% !important;
+    height: 230px !important;
+  }
+  @media only screen and (max-width: 1024px) {
+    width: 35% !important;
+    height: 230px !important;
+  }
 }
 .three_bg {
   background-color: rgb(255, 67, 40);
@@ -19,12 +62,49 @@
   color: white;
   padding: 10px 20px 0 70px;
   margin: 15px 10px 0 0;
+  @media only screen and (max-width: 420px) {
+    width: 32% !important;
+    height: 140px !important;
+    padding: 0 17px !important;
+    font-size: 9px !important;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 30.5% !important;
+    height: 210px !important;
+    padding: 0 17px !important;
+  }
+  @media only screen and (max-width: 1024px) {
+    width: 31% !important;
+    height: 210px !important;
+    padding: 0 17px !important;
+  }
 }
 .four_bg {
   background-color: rgb(241, 248, 253);
   width: 27%;
   height: 290px;
   padding: 10px 20px 0 70px;
+  @media only screen and (max-width: 320px) {
+    height: 130px !important;
+    width: 36% !important;
+    padding: 5px 7px 0 7px !important;
+  }
+  @media only screen and (max-width: 420px) {
+    width: 32% !important;
+    height: 140px !important;
+    padding: 0 17px !important;
+    font-size: 9px !important;
+  }
+  @media only screen and (max-width: 768px) {
+    width: 31% !important;
+    height: 210px !important;
+    padding: 0 17px !important;
+  }
+  @media only screen and (max-width: 1024px) {
+    width: 32% !important;
+    height: 210px !important;
+    padding: 0 17px !important;
+  }
 }
 .img {
   display: flex;
@@ -33,211 +113,126 @@
 .text {
   font-size: 24px;
   color: rgba(255, 255, 255, 0.716);
+  @media only screen and (max-width: 420px) {
+    font-size: 8px !important;
+    margin: 15px 0 0 0 !important;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 15px !important;
+    margin: 15px 0 0 0 !important;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 15px !important;
+    margin: 15px 0 0 0 !important;
+  }
 }
 .text_four {
   color: rgba(0, 0, 0, 0.705);
   font-size: 24px;
+  @media only screen and (max-width: 420px) {
+    font-size: 8px !important;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 15px !important;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 15px !important;
+  }
 }
 .error {
   margin: -40px 0 0 670px;
   position: absolute;
   width: 55px;
-}
-.error-1 {
-  margin: -40px 0 0 1180px;
-  width: 55px;
-  position: absolute;
-}
-@media only screen and (max-width: 320px) {
-  .img_1_designPgn {
-    margin: 10px 10px 5px 25px !important;
-    height: 130px !important;
-  }
-  .img_2_designPgn {
-    height: 130px !important;
-  }
-  .three_bg {
-    height: 130px !important;
-    margin: 0 10px 0 20px !important;
-    width: 37% !important;
-    padding: 5px 7px 0 7px !important;
-  }
-  .four_bg {
-    height: 130px !important;
-    width: 36% !important;
-    padding: 5px 7px 0 7px !important;
-  }
-
-  .error {
-    margin: -15px 0 0 115px !important ;
+  @media only screen and (max-width: 320px) {
+    margin: -15px 0 0 15px !important ;
     width: 30px !important;
   }
-  .error-1 {
-    margin: -15px 0 0 250px !important;
-    width: 30px !important;
-  }
-  .three_sub_heading {
-    font-size: 10px !important;
-  }
-}
-@media only screen and (max-width: 375px) {
-  .error {
+  /* @media only screen and (max-width: 375px) {
     margin: -30px 0 0 138px !important;
     width: 35px !important;
   }
-  .error-1 {
-    margin: -30px 0 0 270px !important;
-    width: 35px !important;
-  }
-}
-@media only screen and (max-width: 390px) {
-  .error {
+  @media only screen and (max-width: 390px) {
     margin: -25px 0 0 140px !important ;
   }
-  .error-1 {
-    margin: -25px 0 0 290px !important;
-  }
-}
-@media only screen and (max-width: 420px) {
-  .img_1_designPgn {
-    width: 40% !important;
-    height: 140px !important;
-  }
-  .img_2_designPgn {
-    width: 40% !important;
-    height: 140px !important;
-  }
-  .three_bg {
-    width: 32% !important;
-    height: 140px !important;
-    padding: 0 17px !important;
-    font-size: 9px !important;
-  }
-  .four_bg {
-    width: 32% !important;
-    height: 140px !important;
-    padding: 0 17px !important;
-    font-size: 9px !important;
-  }
-  .text {
-    font-size: 8px !important;
-    margin: 15px 0 0 0 !important;
-  }
-  .text_four {
-    font-size: 8px !important;
-  }
-  .error {
+  @media only screen and (max-width: 420px) {
     margin: -30px 0 0 150px !important ;
     width: 40px !important;
     position: absolute !important;
     z-index: 1 !important;
   }
-  .error-1 {
+  @media only screen and (max-width: 768px) {
+    margin: -35px 0 0 300px !important;
+    width: 40px !important;
+  }
+  @media only screen and (max-width: 1024px) {
+    margin: -35px 0 0 430px !important;
+    width: 40px !important;
+  }
+  @media only screen and (max-width: 1440px) {
+    margin: -40px 0 0 620px;
+  } */
+}
+.error-1 {
+  margin: -40px 0 0 1180px;
+  width: 55px;
+  position: absolute;
+  @media only screen and (max-width: 320px) {
+    margin: -15px 0 0 250px !important;
+    width: 30px !important;
+  }
+  @media only screen and (max-width: 375px) {
+    margin: -30px 0 0 270px !important;
+    width: 35px !important;
+  }
+  @media only screen and (max-width: 390px) {
+    margin: -25px 0 0 290px !important;
+  }
+  @media only screen and (max-width: 420px) {
     margin: -30px 0 0 320px !important;
     width: 40px !important;
     position: absolute !important;
     z-index: 1 !important;
   }
+  @media only screen and (max-width: 768px) {
+    margin: -35px 0 0 590px !important;
+    width: 40px !important;
+  }
+  @media only screen and (max-width: 1024px) {
+    margin: -35px 0 0 800px !important;
+    width: 40px !important;
+  }
+  @media only screen and (max-width: 1440px) {
+    margin: -40px 0 0 1110px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .three_sub_heading {
+    font-size: 10px !important;
+  }
+}
+@media only screen and (max-width: 420px) {
   .three_sub_heading {
     font-size: 11px !important;
   }
+}
+@media only screen and (max-width: 768px) {
+  .three_sub_heading {
+    font-size: 20px !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .three_sub_heading {
+    font-size: 20px !important;
+  }
+}
+@media only screen and (max-width: 420px) {
   .three_heading {
     font-size: 16px !important;
   }
 }
-/* @media only screen and (max-width: 768px) {
-  .img_1_designPgn {
-    width: 35% !important;
-    height: 230px !important;
-  }
-  .img_2_designPgn {
-    width: 35% !important;
-    height: 230px !important;
-  }
-  .img_flex_designPgn {
-    margin-top: 30px;
-  }
-  .three_bg {
-    width: 30.5% !important;
-    height: 210px !important;
-    padding: 0 17px !important;
-  }
-  .four_bg {
-    width: 31% !important;
-    height: 210px !important;
-    padding: 0 17px !important;
-  }
-  .text {
-    font-size: 15px !important;
-    margin: 15px 0 0 0 !important;
-  }
-  .text_four {
-    font-size: 15px !important;
-  }
-  .error {
-    margin: -35px 0 0 300px !important;
-    width: 40px !important;
-  }
-  .error-1 {
-    margin: -35px 0 0 590px !important;
-    width: 40px !important;
-  }
-  .three_sub_heading {
-    font-size: 20px !important;
-  }
+
+@media only screen and (max-width: 768px) {
   .three_heading {
     font-size: 25px !important;
   }
 }
-@media only screen and (max-width: 1024px) {
-  .img_1_designPgn {
-    width: 35% !important;
-    height: 230px !important;
-  }
-  .img_2_designPgn {
-    width: 35% !important;
-    height: 230px !important;
-  }
-  .img_flex_designPgn {
-    margin-top: 30px;
-  }
-  .three_bg {
-    width: 31% !important;
-    height: 210px !important;
-    padding: 0 17px !important;
-  }
-  .four_bg {
-    width: 32% !important;
-    height: 210px !important;
-    padding: 0 17px !important;
-  }
-  .text {
-    font-size: 15px !important;
-    margin: 15px 0 0 0 !important;
-  }
-  .text_four {
-    font-size: 15px !important;
-  }
-  .error {
-    margin: -35px 0 0 430px !important;
-    width: 40px !important;
-  }
-  .error-1 {
-    margin: -35px 0 0 800px !important;
-    width: 40px !important;
-  }
-  .three_sub_heading {
-    font-size: 20px !important;
-  }
-  .three_heading {
-    font-size: 25px !important;
-  }
-}
-@media only screen and (max-width: 1440px) {
-  .error {
-    margin: -40px 0 0 620px;
-  }
-  .error-1 {
-    margin: -40px 0 0 1110px;
-  }
-} */

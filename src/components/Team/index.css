@@ -4,28 +4,109 @@
   height: 100px;
   margin: -5px 0 0 0px;
   padding: 20px 0 0 40px;
+  @media only screen and (max-width: 420px) {
+    width: 100%;
+    height: 60px;
+    margin: 0 0 0 5px;
+    padding: 0;
+    font-size: 5px;
+  }
+  @media only screen and (max-width: 768px) {
+    background-color: rgb(241, 248, 253);
+    width: 77%;
+    height: 70px;
+    margin: -5px 0 0 0px;
+    padding: 10px 0 0 20px;
+  }
+  @media only screen and (max-width: 1024px) {
+    width: 86%;
+    height: 70px;
+    margin: -5px 0 0 0px;
+    padding: 10px 0 0 20px;
+  }
 }
 .img_team {
   margin: 30px 0 0 0px;
   height: 380px;
   width: 90%;
+  @media only screen and (max-width: 420px) {
+    margin: 0px 5px 0;
+    height: 130px;
+    width: 100%;
+  }
+  @media only screen and (max-width: 768px) {
+    margin: 30px 0 0 0px;
+    height: 300px;
+    width: 95%;
+  }
+  @media only screen and (max-width: 1024px) {
+    margin: 30px 0 0 0px;
+    height: 300px;
+    width: 95%;
+  }
 }
 .card_heading {
   margin: 0;
+  @media only screen and (max-width: 420px) {
+    padding: 0px 0 0 5px;
+  }
+  @media only screen and (max-width: 768px) {
+    margin: 0;
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 20px;
+  }
 }
 .card_small_heading {
   margin: 0;
   font-size: 18px;
+  @media only screen and (max-width: 420px) {
+    margin: 0;
+    font-size: 12px;
+    padding: 0px 0 0 5px;
+  }
+  @media only screen and (max-width: 768px) {
+    margin: 0;
+    font-size: 15px;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 15px;
+  }
 }
 .team_heading {
   text-align: center;
   margin: 0;
   font-size: 35px;
+  @media only screen and (max-width: 420px) {
+    font-size: 20px;
+    margin: -5px 0 0 0;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 30px;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 30px;
+  }
 }
 .small_team_heading {
   text-align: center;
   margin: 50px 0 0 0;
   color: rgb(255, 74, 48);
+  @media only screen and (max-width: 420px) {
+    margin: 15px 0 0 0;
+    font-size: 15px;
+  }
+  @media only screen and (max-width: 768px) {
+    margin: 30px 0 0 0;
+  }
+  @media only screen and (max-width: 1024px) {
+    margin: 15px 0 0 0;
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 1440px) {
+    margin: 40px 0 0 0;
+  }
 }
 
 .card:hover {
@@ -36,17 +117,49 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  @media only screen and (max-width: 420px) {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    justify-content: flex-start;
+  }
 }
 
 .facebook {
   margin: 3px 0 0 90px;
   color: black;
   font-size: 20px;
+  @media only screen and (max-width: 420px) {
+    margin: 0px 0 0 0px;
+    color: black;
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 768px) {
+    margin: 0px 0 0 25px;
+    color: black;
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 1024px) {
+    margin: 0px 0 0 70px;
+  }
 }
 .insta {
   margin: 15px 0 0 50px;
   color: black;
   font-size: 20px;
+  @media only screen and (max-width: 420px) {
+    margin: 5px 0 0 25px;
+    color: black;
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 768px) {
+    margin: 5px 0 0 25px;
+    color: black;
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 1024px) {
+    margin: 5px 0 0 70px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -60,139 +173,26 @@
   }
 }
 @media only screen and (max-width: 420px) {
-  .img_team {
-    margin: 0px 5px 0;
-    height: 130px;
-    width: 100%;
-  }
   .team {
     width: 100%;
     margin: 0px 5px;
     height: 205px;
   }
-
-  .card {
-    width: 100%;
-    height: 60px;
-    margin: 0 0 0 5px;
-    padding: 0;
-    font-size: 5px;
-  }
-  .card_small_heading {
-    margin: 0;
-    font-size: 12px;
-    padding: 0px 0 0 5px;
-  }
-  .card_heading {
-    padding: 0px 0 0 5px;
-  }
-  .card_flex {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    justify-content: flex-start;
-    /* margin: 10px 0 0 20px; */
-  }
-
-  .team_heading {
-    font-size: 20px;
-    margin: -5px 0 0 0;
-  }
-  .small_team_heading {
-    margin: 15px 0 0 0;
-    font-size: 15px;
-  }
-  .facebook {
-    margin: 0px 0 0 0px;
-    color: black;
-    font-size: 20px;
-  }
-  .insta {
-    margin: 5px 0 0 25px;
-    color: black;
-    font-size: 20px;
-  }
 }
-/* @media only screen and (max-width: 768px) {
-  .card {
-    background-color: rgb(241, 248, 253);
-    width: 77%;
-    height: 70px;
-    margin: -5px 0 0 0px;
-    padding: 10px 0 0 20px;
-  }
-  .img_team {
-    margin: 30px 0 0 0px;
-    height: 300px;
-    width: 95%;
-  }
-  .card_heading {
-    margin: 0;
-    font-size: 20px;
-  }
-  .card_small_heading {
-    margin: 0;
-    font-size: 15px;
-  }
-  .team_heading {
-    font-size: 30px;
-  }
-  .small_team_heading {
-    margin: 30px 0 0 0;
-  }
-  .facebook {
-    margin: 0px 0 0 25px;
-    color: black;
-    font-size: 20px;
-  }
-  .insta {
-    margin: 5px 0 0 25px;
-    color: black;
-    font-size: 20px;
-  }
- 
-}
+
 @media only screen and (max-width: 1024px) {
-  .card {
-    width: 86%;
-    height: 70px;
-    margin: -5px 0 0 0px;
-    padding: 10px 0 0 20px;
-  }
-  .img_team {
-    margin: 30px 0 0 0px;
-    height: 300px;
-    width: 95%;
-  }
-  .card_heading {
-  
-    font-size: 20px;
-  }
-  .card_small_heading {
-   
-    font-size: 15px;
-  }
   .team_heading {
     font-size: 30px;
   }
- 
+
   .facebook {
     margin: 0px 0 0 70px;
-  
   }
   .insta {
     margin: 5px 0 0 70px;
-    
   }
   .small_team_heading {
     margin: 15px 0 0 0;
     font-size: 20px;
   }
- 
 }
-@media only screen and (max-width: 1440px) {
-  .small_team_heading {
-    margin: 40px 0 0 0;
-  }
-  
-} */
